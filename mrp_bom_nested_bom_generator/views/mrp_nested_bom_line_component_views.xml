@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+    <record id="mrp_nested_bom_component_view_form" model="ir.ui.view">
+        <field name="name">mrp.nested.bom.component.view.form</field>
+        <field name="model">mrp.nested.bom.component</field>
+        <field name="arch" type="xml">
+            <form string="Component">
+                <sheet>
+                    <group>
+                        <field name="component_id" />
+                        <field name="component_qty" />
+                        <field name="component_uom_id" />
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+</odoo>
